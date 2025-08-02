@@ -8,9 +8,10 @@ const Navbar = () => {
   const[showMenu, setShowMenu] = useState(false)
   const[loginToken, setLoginToken]  = useState(true)
 
+ {/* mintMist, oliveWhisper, sageGlow, mossyFog */} 
   return (
     // <div className='flex items-center justify-between text-sm py-4 mb-5 border-b border-b-gray-400'>
-    <div className='flex items-center justify-between text-sm py-4 px-6 mb-5 bg-softCream shadow-md sticky top-0 z-50 transition-all duration-300'>
+    <div className='flex items-center justify-between text-sm py-4 px-6 mb-5 bg-mintMist shadow-md sticky top-0 z-50 transition-all duration-300'>
 
       
       <img onClick={() => navigate('/')} src={assets.logo} alt="DOCQET Logo" className="max-w-[150px] h-[110px] cursor-pointer relative -top-2" />
@@ -34,7 +35,7 @@ const Navbar = () => {
             <li className='py-1 text-deepTeal hover:text-slate-600 transition duration-300'>CONTACT US</li>
             <hr className='border-none outline-none h-0.5 bg-slate-300 w-3/5 m-auto hidden'/>
         </NavLink>
- {/* deepTeal oftCream goldie richGold  deepGreen*/}      
+  
       </ul>
       <div className='flex items-center gap-4'>
         {
@@ -70,3 +71,5 @@ const Navbar = () => {
 }
 
 export default Navbar
+
+ {/* softCreamy	sandyBeige	leafyGreen	deepForestGreen*/}    

@@ -1,8 +1,9 @@
 import { assets } from "../assets/assets"
 
+{/* mintMist, oliveWhisper, sageGlow, mossyFog */} 
 const Footer = () => {
   return (
-    <div className="bg-slate-100 text-gray-800 pt-10 pb-6 px-6 md:px-20 mt-16 rounded-t-3xl shadow-inner">
+    <div className="bg-mintMist text-gray-800 pt-10 pb-6 px-6 md:px-20 mt-16 rounded-t-3xl shadow-inner">
         <div className="flex flex-col md:flex-row justify-between items-start gap-10 text-center md:text-left">
 
 

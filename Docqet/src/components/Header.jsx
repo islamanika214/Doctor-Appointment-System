@@ -1,11 +1,10 @@
 import { assets } from "../assets/assets"
 
-
-{/* deepTeal oftCream goldie richGold  deepGreen*/}    
+ {/* mintMist, oliveWhisper, sageGlow, mossyFog */} 
 
 const Header = () => {
   return (
-    <div className="flex flex-col md:flex-row flex-wrap bg-deepTeal rounded-lg px-6 md:px-10 lg:px-20">
+    <div className="flex flex-col md:flex-row flex-wrap bg-mossyFog rounded-lg px-6 md:px-10 lg:px-20">
    
 
       {/* -----left portion----- */}

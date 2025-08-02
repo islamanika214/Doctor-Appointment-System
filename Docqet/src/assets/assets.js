@@ -94,7 +94,7 @@ export const doctorsList = [
     speciality : 'Cardiologist',
     qualification: 'MBBS, MD',
     yearsOfService: '7 Years',
-    bio: 'Heart hero with a smile! Dr. Ayaan brings warmth and skill to every heartbeat he heals.',
+    bio: 'Dr. Zahra Rahman is a skilled cardiologist with a compassionate heart. She is dedicated to treating cardiovascular diseases with precision and care.',
     consultationFee: 70,
     location: {
       street: 'Lakeview Road',
@@ -105,10 +105,10 @@ export const doctorsList = [
     _id: 'd2',
     fullName: 'Dr. Tasmia Anwar',
     photo: doc2,
-    speciality : 'Neurologist',
+    speciality : 'Dermatologist',
     qualification: 'MBBS, DDVL',
     yearsOfService: '5 Years',
-    bio: 'Skincare fairy! Dr. Meherin helps you glow from inside out with her gentle care.',
+    bio: 'Dr. Tasmia Anwar is a trusted dermatologist who helps patients achieve healthy and glowing skin. She treats a wide range of skin concerns with empathy and expertise.',
     consultationFee: 60,
     location: {
       street: 'Green Street',
@@ -122,7 +122,7 @@ export const doctorsList = [
     speciality : 'Neurologist',
     qualification: 'MBBS, MD',
     yearsOfService: '6 Years',
-    bio: 'Brainy and kind! Dr. Farhan listens deeply and heals with science and empathy.',
+    bio: 'Dr. Farhan Kabir is an experienced neurologist dedicated to diagnosing and treating disorders of the nervous system. He combines scientific knowledge with attentive care.',
     consultationFee: 80,
     location: {
       street: 'Sunset Lane',
@@ -136,7 +136,7 @@ export const doctorsList = [
     speciality : 'Gynecologist',
     qualification: 'MBBS, FCPS',
     yearsOfService: '9 Years',
-    bio: 'Caring for queens! Dr. Arifa empowers women with kindness and expert hands.',
+    bio: 'Dr. Arham Hossain provides expert gynecological care for women at every stage of life. His warm approach and professionalism make him a trusted name in women’s health.',
     consultationFee: 55,
     location: {
       street: 'Maple Avenue',
@@ -147,10 +147,10 @@ export const doctorsList = [
     _id: 'd5',
     fullName: 'Dr. Arwa Chowdhury',
     photo: doc5,
-    speciality : 'General Physician',
+    speciality : 'Orthopedic Surgeon',
     qualification: 'MBBS, MS',
     yearsOfService: '8 Years',
-    bio: 'Bone and joint superhero! Dr. Rafiq brings movement and life back with precision.',
+    bio: 'Dr. Arwa Chowdhury is a skilled orthopedic surgeon who specializes in treating bone and joint issues. Her goal is to restore mobility and improve quality of life.',
     consultationFee: 75,
     location: {
       street: 'Victory Road',
@@ -164,7 +164,7 @@ export const doctorsList = [
     speciality : 'Pediatrician',
     qualification: 'MBBS, DCH',
     yearsOfService: '4 Years',
-    bio: 'Little hearts, big care! Dr. Nisa is every child’s favorite gentle healer.',
+    bio: 'Dr. Jarifa Tasnim is a gentle pediatrician who cares deeply for children’s health. She provides friendly and effective treatment for little ones.',
     consultationFee: 50,
     location: {
       street: 'Rose Garden',
@@ -175,10 +175,10 @@ export const doctorsList = [
     _id: 'd7',
     fullName: 'Dr. Zayaan Islam',
     photo: doc7,
-    speciality : 'Dermatologist',
+    speciality : 'ENT Specialist',
     qualification: 'MBBS, MS',
     yearsOfService: '5 Years',
-    bio: 'Ears, nose, and throat expert! Dr. Zayaan makes breathing and hearing feel easy.',
+    bio: 'Dr. Zayaan Islam is an ENT specialist known for treating ear, nose, and throat conditions with precision. He ensures comfort and effective recovery for all his patients.',
     consultationFee: 60,
     location: {
       street: 'Palm Street',
@@ -189,10 +189,10 @@ export const doctorsList = [
     _id: 'd8',
     fullName: 'Dr. Imran Reza',
     photo: doc8,
-    speciality : 'Pediatricians',
+    speciality : 'Psychiatrist',
     qualification: 'MBBS, MD',
     yearsOfService: '6 Years',
-    bio: 'Mind whisperer! Dr. Tasnim listens, understands, and helps you bloom mentally.',
+    bio: 'Dr. Imran Reza is a dedicated psychiatrist who supports mental wellness with deep care. He helps patients manage stress, anxiety, and other mental health challenges.',
     consultationFee: 90,
     location: {
       street: 'Hope Street',
@@ -206,7 +206,7 @@ export const doctorsList = [
     speciality : 'Dermatologist',
     qualification: 'MBBS, MS',
     yearsOfService: '7 Years',
-    bio: 'Calm and clear, Dr. Imran takes care of health in the most private, respectful way.',
+    bio: 'Dr. Anogh Saeed is a passionate dermatologist who treats skin conditions with modern techniques. He believes in promoting healthy and confident skin.',
     consultationFee: 65,
     location: {
       street: 'Lotus Avenue',
@@ -217,10 +217,10 @@ export const doctorsList = [
     _id: 'd10',
     fullName: 'Dr. Zaraf Islam',
     photo: doc10,
-    speciality : 'Neurologist',
+    speciality : 'Nutritionist',
     qualification: 'BSc, MSc',
     yearsOfService: '3 Years',
-    bio: 'Your healthy food fairy! Dr. Sabrina guides you to eat better with tasty plans.',
+    bio: 'Dr. Zaraf Islam is a certified nutritionist who helps clients lead healthier lives through personalized meal plans. Her advice is practical, sustainable, and effective.',
     consultationFee: 40,
     location: {
       street: 'Pearl Street',
@@ -234,7 +234,7 @@ export const doctorsList = [
     speciality : 'General Physician',
     qualification: 'MBBS',
     yearsOfService: '4 Years',
-    bio: 'Your everyday health buddy! Dr. Hasan is kind, fast, and always helpful.',
+    bio: 'Dr. Fariha Noor is a general physician known for her efficiency and gentle care. She helps manage day-to-day health concerns with a holistic approach.',
     consultationFee: 50,
     location: {
       street: 'Skyline Road',
@@ -245,10 +245,10 @@ export const doctorsList = [
     _id: 'd12',
     fullName: 'Dr. Siam Khan',
     photo: doc12,
-    speciality : 'Gyneocologist',
+    speciality : 'Gynecologist',
     qualification: 'MBBS, MD',
     yearsOfService: '6 Years',
-    bio: 'Balancing hormones, balancing life! Dr. Mahira helps with PCOS, thyroid, and more.',
+    bio: 'Dr. Siam Khan is a knowledgeable gynecologist who supports women’s reproductive and hormonal health. He provides clear and respectful consultations.',
     consultationFee: 85,
     location: {
       street: 'Crystal Lane',
@@ -259,10 +259,10 @@ export const doctorsList = [
     _id: 'd13',
     fullName: 'Dr. Nushrat Anika',
     photo: doc13,
-    speciality : 'Pediatrician',
+    speciality : 'Oncologist',
     qualification: 'MBBS, DM',
     yearsOfService: '10 Years',
-    bio: 'Fighting cancer with hope and heart. Dr. Omar is a warrior in a white coat.',
+    bio: 'Dr. Nushrat Anika is a senior oncologist who supports cancer patients with compassion and expertise. She is deeply committed to their recovery journey.',
     consultationFee: 120,
     location: {
       street: 'Sunrise Boulevard',
@@ -273,10 +273,10 @@ export const doctorsList = [
     _id: 'd14',
     fullName: 'Dr. Hasan Zubair',
     photo: doc14,
-    speciality : 'Gynecologist',
+    speciality : 'Pulmonologist',
     qualification: 'MBBS, MD',
     yearsOfService: '5 Years',
-    bio: 'Breathe easy with Dr. Anika’s care. She’s your lung’s best friend.',
+    bio: 'Dr. Hasan Zubair is a pulmonologist who provides expert care for respiratory conditions. He is known for his thorough diagnosis and comforting presence.',
     consultationFee: 70,
     location: {
       street: 'Breeze Avenue',
@@ -287,14 +287,15 @@ export const doctorsList = [
     _id: 'd15',
     fullName: 'Dr. Jarin Hossain',
     photo: doc15,
-    speciality : 'Cardiologist',
+    speciality : 'Dentist',
     qualification: 'BDS, MDS',
     yearsOfService: '3 Years',
-    bio: 'Sparkling smiles! Dr. Tahmid makes dental visits fun and painless.',
+    bio: 'Dr. Jarin Hossain is a friendly and skilled dentist who ensures a comfortable dental experience. She focuses on preventive care and gentle treatments.',
     consultationFee: 45,
     location: {
       street: 'Smile Street',
       area: 'Kalabagan, Dhaka'
     }
   }
+
 ];

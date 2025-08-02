@@ -2,6 +2,7 @@ import { useContext, useEffect, useState } from "react"
 import { useNavigate, useParams } from "react-router-dom"
 import { DoctorAppContext } from "../context/DoctorAppContexts"
 
+ {/* softCreamy	sandyBeige	leafyGreen	deepForestGreen*/} 
 const Doctors = () => {
 
   const {speciality} = useParams()

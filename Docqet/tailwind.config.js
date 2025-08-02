@@ -7,11 +7,10 @@ export default {
   theme: {
     extend: {
       colors:{
-        deepTeal: '#00809D',
-        softCream: '#FCF8DD',
-        goldie: '#FFD700',
-        richGold: '#D3AF37',
-        deepGreen: '#004030',
+        mintMist: '#EEEFE0',
+        oliveWhisper: '#D1D8BE',
+        sageGlow: '#A7C1A8',
+        mossyFog: '#819A91',
       },
       gridTemplateColumns:{
         'auto': 'repeat(auto-fill, minmax(200px,1fr))'

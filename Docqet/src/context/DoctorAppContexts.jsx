@@ -7,8 +7,10 @@ export const DoctorAppContext = createContext()
 
 const DoctorAppContextProvider = (props) => {
 
+    const currencySymbol = '$'
+
     const doctorData ={
-        doctorsList
+        doctorsList, currencySymbol
 
     }
     return(

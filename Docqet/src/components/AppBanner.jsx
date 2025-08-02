@@ -3,9 +3,10 @@ import { assets } from "../assets/assets"
 
 const AppBanner = () => {
     const navigate = useNavigate()
+ {/* mintMist, oliveWhisper, sageGlow, mossyFog */} 
   
   return (
-    <div className="flex flex-col md:flex-row flex-wrap bg-emerald-50 rounded-lg px6 md:px-10 lg:px-20">
+    <div className="flex flex-col md:flex-row flex-wrap bg-oliveWhisper rounded-lg px6 md:px-10 lg:px-20">
         
       {/* -----left portion----- */}
       <div className="flex-1 py-8 sm:py-10 md:py-16 lg:py-24 lg:pl-5">
