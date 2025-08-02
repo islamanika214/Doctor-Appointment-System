@@ -1,19 +1,22 @@
 import { assets } from "../assets/assets"
 
+
+{/* deepTeal oftCream goldie richGold  deepGreen*/}    
+
 const Header = () => {
   return (
-    <div className="flex flex-col md:flex-row flex-wrap bg-emerald-50 rounded-lg px-6 md:px-10 lg:px-20">
+    <div className="flex flex-col md:flex-row flex-wrap bg-deepTeal rounded-lg px-6 md:px-10 lg:px-20">
    
 
       {/* -----left portion----- */}
       <div className="md:w-1/2 flex flex-col items-start justify-center gap-4 py-10 m-auto md:py-[10vw] md:mb-[-30px]">
       
         
-        <p className="text-3xl md:text-4xl lg:text-5xl text-green-950 font-bold leading-tight md:leading-tight lg:leading-tight">
+        <p className="text-3xl md:text-4xl lg:text-5xl text-goldie font-bold leading-tight md:leading-tight lg:leading-tight">
             Book Your Appointments <br/> With Trusted Doctors 🩺
         </p>
-        <h6 className="text-3xl md:text-4xl lg:text-5xl text-green-900 font-sembold tracking-tight  leading-tight md:leading-tight lg:leading-tight">Your Health, Our Priority</h6>
-        <div className="flex flex-col md:flex-row items-center gap-3 text-stone-700 text-base font-light">
+        <h6 className="text-3xl md:text-4xl lg:text-5xl text-yellow-100 font-sembold tracking-tight  leading-tight md:leading-tight lg:leading-tight">Your Health, Our Priority</h6>
+        <div className="flex flex-col md:flex-row items-center gap-3 text-stone-900 text-base font-light">
             <img className="w-28" src={assets.group_profiles} alt="" />
             <p>Quick, secure & hassle-free healthcare access from <br className="hidden sm:block"/> the comfort of your home</p>
         </div>
