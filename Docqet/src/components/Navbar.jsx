@@ -45,7 +45,7 @@ const Navbar = () => {
                 </NavLink>
                 <NavLink to="/contact">
                     <li className="py-1 text-darkMossyFog hover:text-slate-600 transition duration-300">
-                        CONTACT US
+                        CONTACT
                     </li>
                     <hr className="border-none outline-none h-0.5 bg-oliveWhisper w-3/5 m-auto hidden" />
                 </NavLink>
@@ -94,6 +94,62 @@ const Navbar = () => {
                         Create Account
                     </button>
                 )}
+
+                <img
+                    onClick={() => setShowMenu(true)}
+                    className="w-6 md:hidden mt-0"
+                    src={assets.menu_icon}
+                    alt=""
+                />
+
+                {/* mobile menu view */}
+                <div
+                    className={` ${
+                        showMenu ? "fixed w-full" : "h-0 w-0"
+                    } md:hidden right-0 top-0 bottom-0 z-20 overflow-hidden bg-mintMist transition-all`}
+                >
+                    <div className="flex flex-center justify-between px-5 py-6">
+                        <img
+                            className="max-w-[150px] h-[110px] cursor-pointer relative -top-2"
+                            src={assets.logo}
+                            alt=""
+                        />
+                        <img
+                            className="w-7 h-7 relative top-8"
+                            onClick={() => setShowMenu(false)}
+                            src={assets.cross_icon}
+                            alt=""
+                        />
+                    </div>
+                    <ul className="flex flex-col items-center gap-2 mt-5 px-5 text-lg font-medium text-darkMossyFog ">
+                        <NavLink onClick={() => setShowMenu(false)} to="/">
+                            <p className="px-4 py-2 rounded-sm inline-block">
+                                HOME
+                            </p>
+                        </NavLink>
+                        <NavLink
+                            onClick={() => setShowMenu(false)}
+                            to="/doctors"
+                        >
+                            <p className="px-4 py-2 rounded-sm inline-block">
+                                DOCTOS LIST
+                            </p>
+                        </NavLink>
+                        <NavLink onClick={() => setShowMenu(false)} to="/about">
+                            <p className="px-4 py-2 rounded-sm inline-block">
+                                ABOUT
+                            </p>
+                        </NavLink>
+                        <NavLink
+                            onClick={() => setShowMenu(false)}
+                            to="/contact"
+                        >
+                            <p className="px-4 py-2 rounded-sm inline-block">
+                                CONTACT
+                            </p>
+                        </NavLink>
+                    </ul>
+                </div>
             </div>
         </div>
     );

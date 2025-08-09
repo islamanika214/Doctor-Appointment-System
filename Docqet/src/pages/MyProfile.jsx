@@ -44,12 +44,13 @@ const MyProfile = () => {
                 <p className="text-darkSageGlow underline mt-3">
                     CONTACT INFORMATION
                 </p>
-                <div>
-                    <p>Email id:</p>
-                    <p>{userInfo.email}</p>
-                    <p>Phone:</p>
+                <div className="grid grid-cols-[1fr_3fr] gap-y-2 mt-3 text-darkMossyFog">
+                    <p className="font-medium">Email id:</p>
+                    <p className="text-sky-800">{userInfo.email}</p>
+                    <p className="font-medium">Phone:</p>
                     {isEdit ? (
                         <input
+                            className="bg-oliveWhisper/20 text-deepForest max-w-48"
                             type="text"
                             value={userInfo.phone}
                             onChange={(e) =>
@@ -60,12 +61,13 @@ const MyProfile = () => {
                             }
                         />
                     ) : (
-                        <p>{userInfo.phone}</p>
+                        <p className="text-sky-800">{userInfo.phone}</p>
                     )}
-                    <p>Address: </p>
+                    <p className="font-medium">Address: </p>
                     {isEdit ? (
                         <p>
                             <input
+                                className="bg-oliveWhisper/20 text-deepForest max-w-48"
                                 onChange={(e) =>
                                     setUserInfo((prev) => ({
                                         ...prev,
@@ -80,6 +82,7 @@ const MyProfile = () => {
                             />
                             <br />
                             <input
+                                className="bg-oliveWhisper/20 text-deepForest max-w-48"
                                 onChange={(e) =>
                                     setUserInfo((prev) => ({
                                         ...prev,
@@ -103,11 +106,14 @@ const MyProfile = () => {
                 </div>
             </div>
             <div>
-                <p>ESSENTIAL INFORMATION</p>
-                <div>
-                    <p>Gender:</p>
+                <p className="text-darkSageGlow underline mt-3">
+                    ESSENTIAL INFORMATION
+                </p>
+                <div className="grid grid-cols-[1fr_3fr] gap-y-2 mt-3 text-darkMossyFog">
+                    <p className="font-medium">Gender:</p>
                     {isEdit ? (
                         <select
+                            className="max-w-20 bg-oliveWhisper/20"
                             onChange={(e) =>
                                 setUserInfo((prev) => ({
                                     ...prev,
@@ -122,10 +128,11 @@ const MyProfile = () => {
                     ) : (
                         <p>{userInfo.gender}</p>
                     )}
-                    <p>Birth Date:</p>
+                    <p className="font-medium">Birth Date:</p>
 
                     {isEdit ? (
                         <input
+                            className="bg-oliveWhisper/20 text-deepForest max-w-28"
                             type="date"
                             onChange={(e) =>
                                 setUserInfo((prev) => ({
@@ -141,13 +148,21 @@ const MyProfile = () => {
                 </div>
             </div>
 
-            <div>
+            <div className="mt-10">
                 {isEdit ? (
-                    <button onClick={() => setIsEdit(false)}>
+                    <button
+                        className="border border-oliveWhisper px-6 py-2 text-sm hover:bg-darkMossyFog hover:text-white font-light hover:text-lg transition-all duration-300 rounded-full"
+                        onClick={() => setIsEdit(false)}
+                    >
                         Save Changes
                     </button>
                 ) : (
-                    <button onClick={() => setIsEdit(true)}>Edit Info</button>
+                    <button
+                        className="border border-oliveWhisper px-6 py-2 text-sm hover:bg-darkMossyFog hover:text-white font-light hover:text-lg transition-all duration-300 rounded-full"
+                        onClick={() => setIsEdit(true)}
+                    >
+                        Edit Information
+                    </button>
                 )}
             </div>
         </div>
