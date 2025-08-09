@@ -1,6 +1,7 @@
 import { useContext, useEffect, useState } from "react"
 import { useParams } from "react-router-dom"
 import { assets } from "../assets/assets"
+import SimilarDoctors from "../components/SimilarDoctors"
 import { DoctorAppContext } from "../context/DoctorAppContexts"
 
 
@@ -88,7 +89,7 @@ const Appointment = () => {
   }, [availableDocSlots])
 
 
-  return doctorInfo &&(
+  return doctorInfo && (
     <div>
       <div className="flex flex-col sm:flex-row gap-4">
         {/* ----doctor's image---- */}
@@ -155,6 +156,9 @@ const Appointment = () => {
           <button className="bg-sageGlow text-gray-50 text-sm font-light px-14 py-3 rounded-full my-6">Book an Appointment Now</button>
 
         </div>
+
+        {/* Listing similar doctors */}
+        <SimilarDoctors docId={docId} speciality={doctorInfo.speciality}/> 
       
       
     </div>

@@ -1,3 +1,4 @@
+import about_image from './about_image.png'
 import appointment_img from './appointment_img.png'
 import arrow_icon from './arrow_icon.svg'
 import Cardiologist from './Cardiologist.png'
@@ -20,7 +21,6 @@ import doc6 from './doc6.png'
 import doc7 from './doc7.png'
 import doc8 from './doc8.png'
 import doc9 from './doc9.png'
-import about_image from './DocAboutImage.jpg'
 import docHeader_img from './DocHeader.png'
 import dropdown_icon from './dropdown_icon.png'
 // import Gastroenterologist from './Gastroenterologist.svg'
@@ -147,7 +147,7 @@ export const doctorsList = [
     _id: 'd5',
     fullName: 'Dr. Arwa Chowdhury',
     photo: doc5,
-    speciality : 'Orthopedic Surgeon',
+    speciality : 'Neurologist',
     qualification: 'MBBS, MS',
     yearsOfService: '8 Years',
     bio: 'Dr. Arwa Chowdhury is a skilled orthopedic surgeon who specializes in treating bone and joint issues. Her goal is to restore mobility and improve quality of life.',
@@ -175,7 +175,7 @@ export const doctorsList = [
     _id: 'd7',
     fullName: 'Dr. Zayaan Islam',
     photo: doc7,
-    speciality : 'ENT Specialist',
+    speciality : 'Pediatrician',
     qualification: 'MBBS, MS',
     yearsOfService: '5 Years',
     bio: 'Dr. Zayaan Islam is an ENT specialist known for treating ear, nose, and throat conditions with precision. He ensures comfort and effective recovery for all his patients.',
@@ -189,7 +189,7 @@ export const doctorsList = [
     _id: 'd8',
     fullName: 'Dr. Imran Reza',
     photo: doc8,
-    speciality : 'Psychiatrist',
+    speciality : 'Pediatrician',
     qualification: 'MBBS, MD',
     yearsOfService: '6 Years',
     bio: 'Dr. Imran Reza is a dedicated psychiatrist who supports mental wellness with deep care. He helps patients manage stress, anxiety, and other mental health challenges.',
@@ -217,7 +217,7 @@ export const doctorsList = [
     _id: 'd10',
     fullName: 'Dr. Zaraf Islam',
     photo: doc10,
-    speciality : 'Nutritionist',
+    speciality : 'Dermatologist',
     qualification: 'BSc, MSc',
     yearsOfService: '3 Years',
     bio: 'Dr. Zaraf Islam is a certified nutritionist who helps clients lead healthier lives through personalized meal plans. Her advice is practical, sustainable, and effective.',
@@ -259,7 +259,7 @@ export const doctorsList = [
     _id: 'd13',
     fullName: 'Dr. Nushrat Anika',
     photo: doc13,
-    speciality : 'Oncologist',
+    speciality : 'Gynecologist',
     qualification: 'MBBS, DM',
     yearsOfService: '10 Years',
     bio: 'Dr. Nushrat Anika is a senior oncologist who supports cancer patients with compassion and expertise. She is deeply committed to their recovery journey.',
@@ -273,7 +273,7 @@ export const doctorsList = [
     _id: 'd14',
     fullName: 'Dr. Hasan Zubair',
     photo: doc14,
-    speciality : 'Pulmonologist',
+    speciality : 'General Physician',
     qualification: 'MBBS, MD',
     yearsOfService: '5 Years',
     bio: 'Dr. Hasan Zubair is a pulmonologist who provides expert care for respiratory conditions. He is known for his thorough diagnosis and comforting presence.',
@@ -287,7 +287,7 @@ export const doctorsList = [
     _id: 'd15',
     fullName: 'Dr. Jarin Hossain',
     photo: doc15,
-    speciality : 'Dentist',
+    speciality : 'Neurologist',
     qualification: 'BDS, MDS',
     yearsOfService: '3 Years',
     bio: 'Dr. Jarin Hossain is a friendly and skilled dentist who ensures a comfortable dental experience. She focuses on preventive care and gentle treatments.',

@@ -22,7 +22,7 @@ const TopDoctors = () => {
       
         
           {repeatedDoctorsList.map((item,index)=>(
-            <div onClick={()=> navigate(`/appointment/${item._id}`)} key={index}
+            <div onClick={()=> {navigate(`/appointment/${item._id}`); scrollTo(0,0)}} key={index}
             className="min-w-[200px] mx-2 border border-yellow-100 rounded-xl overflow-hidden cursor-pointer hover:translate-y-[-10px] transition-all duration-500 bg-slate-200">
                 <img src={item.photo} alt="" className="w-full h-52 object-cover object-top rounded-md"/>
                 <div className="p-4">
