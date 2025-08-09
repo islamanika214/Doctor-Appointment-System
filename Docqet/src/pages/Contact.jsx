@@ -20,21 +20,27 @@ const Contact = () => {
                     alt=""
                 />
 
-                <div className="flex flex-col justify-center items-start gap-6">
-                    <p className="font-semibold text-lg texy-oliveWhisper">
+                <div className="flex flex-col justify-center items-start gap-6 text-darkMossyFog">
+                    <p className="font-semibold text-lg texy-sageGlow">
                         Our OFFICE
                     </p>
-                    <p>
+                    <p className="text-mossyFog">
                         34567 Mirpur Road <br />
                         Mohammadpur, Dhaka, Bangladesh
                     </p>
-                    <p>
+                    <p className="text-mossyFog">
                         Tel: (+880) 0000000000 <br /> Email: ani@gmail.com
                     </p>
-                    <p>Careers at DOCQET</p>
-                    <p>Learn more about our theams and job openings.</p>
+                    <p className="font-semibold text-lg texy-sageGlow">
+                        Careers at DOCQET
+                    </p>
+                    <p className="text-mossyFog">
+                        Learn more about our theams and job openings.
+                    </p>
 
-                    <button>Explore Jobs</button>
+                    <button className="border border-oliveWhisper px-8 py-4 text-sm hover:bg-darkMossyFog hover:text-white font-light hover:text-lg transition-all duration-500 rounded-full">
+                        Explore Jobs
+                    </button>
                 </div>
             </div>
         </div>
